@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "His mother had always taught him 2",
+      "tags": ["history", "crime"]
+    },
+    {
+      "id": 2,
+      "title": "He was an expert but not in a discipline",
+      "tags": ["french", "fiction", "english"]
+    },
+    {
+      "id": 3,
+      "title": "Dave watched as the forest burned up on the hill.",
+      "tags": ["magical", "history", "french"]
+    }
+  ]
+}
