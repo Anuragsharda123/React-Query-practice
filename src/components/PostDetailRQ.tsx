@@ -30,16 +30,13 @@ const PostDetailRQ:React.FC = () => {
     </div>
   }
 
-  const {title, tags} = data?.data || {}
+  const {title, body} = data?.data || {}
 
   return (
     <div>
       <div> {title} </div>
-      <div> {tags.map((tag:any) => (
-        <>
-      <div>{tag}</div>
-      </>
-    ))} </div>
+      <div> {body} </div>
+
     </div>
   )
 }

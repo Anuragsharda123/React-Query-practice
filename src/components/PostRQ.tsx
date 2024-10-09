@@ -37,11 +37,7 @@ const PostRQ:React.FC = () => {
             <Link to={`/${post.id}`}>
             <div>{post.id}</div>
             <div>{post.title}</div>
-            <div>{post.tags.map((tag:any)=>(
-                <>
-                <div>{tag}</div>
-                </>
-            ))}</div>
+            <div>{post.body}</div>
             </Link>
             <br/>
             </div>
